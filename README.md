@@ -42,7 +42,7 @@ astro --version
 First, clone the project repository to your local machine:
 
 ```bash
-git clone [REPO](https://github.com/lokendrasolanki/python-airflow-project.git)
+git clone https://github.com/lokendrasolanki/python-airflow-project.git
 cd python-airflow-project
 ```
 
