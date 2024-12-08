@@ -79,9 +79,10 @@ You need to set up the PostgreSQL connection in the Airflow UI:
    ```
    http://localhost:8080
    ```
+
 2. Navigate to **Admin → Connections**.
 3. Click **+ Add Connection** and configure the following fields:
-   - **Connection ID:** `postgres_conn`
+   - **Connection ID:** `postgres_default`
    - **Connection Type:** `Postgres`
    - **Host:** `localhost`
    - **Schema:** `<your_database_name>`
@@ -103,7 +104,7 @@ You need to configure the connection for the external API:
    ```
 2. Navigate to **Admin → Connections**.
 3. Click **+ Add Connection** and configure the following fields:
-   - **Connection ID:** `api_conn`
+   - **Connection ID:** `open_product_api`
    - **Connection Type:** `HTTP`
    - **Host:** `<API_BASE_URL>` (e.g., `https://api.example.com`)
 
