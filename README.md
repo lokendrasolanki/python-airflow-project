@@ -42,8 +42,8 @@ astro --version
 First, clone the project repository to your local machine:
 
 ```bash
-git clone <REPOSITORY_URL>
-cd <REPOSITORY_DIRECTORY>
+git clone [REPO](https://github.com/lokendrasolanki/python-airflow-project.git)
+cd python-airflow-project
 ```
 
 Replace `<REPOSITORY_URL>` with the URL of your repository and `<REPOSITORY_DIRECTORY>` with the name of your project directory.
